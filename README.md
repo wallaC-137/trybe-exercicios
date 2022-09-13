@@ -1,2 +1,1 @@
-# trybe-exercicios
-Organizar trybe-exercicios
+# Esse repositório tem o objetivo de guardar todos os exercicios que eu realizar na trybe
