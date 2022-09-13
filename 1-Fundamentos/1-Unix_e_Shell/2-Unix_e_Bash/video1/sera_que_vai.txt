@@ -1,0 +1,5 @@
+1:amararelo
+2:vermelho
+5:marrom
+6:preto
+8:morango
