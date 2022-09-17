@@ -1,16 +1,26 @@
-div h3 {
-    background-color: aqua;
-}
-
-/* div{
-    background-color: yellow;
-}
+div{
+ padding: 1px;
+ width: 20%;
+ border-radius: 10px;
+ margin-top: 5px;
+ text-align: center;
+} 
 div:hover{
-    background-color: orange;
+    border: 5px solid;
+    width: 20%;
 }
-div:active{
-    background-color: blue;
+div:nth-of-type(2){
+    background-color: rgb(251, 255, 0);
 }
-div:focus{
-    background-color: black;
-} */
+div:nth-of-type(3){
+    background-color: rgb(17, 131, 23);
+}
+div:nth-of-type(4){
+    background-color: rgb(255, 0, 0);
+}
+div:nth-of-type(5){
+    background-color: rgb(235, 122, 16);
+}
+div:nth-of-type(6){
+    background-color: rgb(234, 0, 255);
+}
