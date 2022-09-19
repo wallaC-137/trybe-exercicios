@@ -1,6 +1,7 @@
 body {
     background-color: #001011;
-    color: #97C8EB;
+    color: rgba(255, 255, 255, 0.829);
+    font-family: serif;
 }
 
 #head div {
@@ -20,9 +21,22 @@ body {
     text-decoration: none;
     font-family: monospace;
     display: inline-block;
+    font-weight: 800;
+}
+
+header h1{
+    font-size: 45px;
+}
+
+h1, h2, h3, h4 {
+    font-size: 25px;
+    margin-left: 25px;
+    
 }
 
 
 img {
     width: 350px;
+    display: block;
+    margin: auto;
 }
