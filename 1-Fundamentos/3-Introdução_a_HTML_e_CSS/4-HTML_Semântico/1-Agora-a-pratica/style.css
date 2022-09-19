@@ -1,3 +1,30 @@
+body {
+    background-color: #001011;
+    color: #97C8EB;
+}
+
+#head div {
+    /* background-color: #248232;
+    border: 5px inset #248232; */
+    padding: 20px 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#head div a:nth-child(-n+3) {
+    background-color: #093A3E;
+    border: 5px outset #093A3E;
+    padding: 15px 170px;
+    border-radius: 10px;
+    margin-right: 10px;
+    color: #97C8EB;
+    font-size: 25px;
+    text-decoration: none;
+    font-family: monospace;
+    display: inline-block;
+}
+
+
 img {
     width: 350px;
 }
