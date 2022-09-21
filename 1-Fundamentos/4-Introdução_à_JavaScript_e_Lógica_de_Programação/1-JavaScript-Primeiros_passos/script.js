@@ -85,28 +85,28 @@ const c = 13
 
 // Exercício 6
 
-let chessPeace = 'CACHORRO' 
-let nameLC = chessPeace.toLowerCase()
+// let chessPeace = 'CACHORRO' 
+// let nameLC = chessPeace.toLowerCase()
 
-switch (nameLC) {
-    case 'cavalo':
-        console.log('O cavalo pode ser movido para uma das casas mais próximas a que ocupa que não esteja na mesma fileira, coluna ou diagonal')
-        break
-    case 'dama':
-        console.log('A dama pode ser movida para qualquer casa ao longo da fileira, coluna ou diagonal em que se encontra. ')
-        break
-    case 'rei':
-        console.log('Pode mover-se em qualquer direção, porém apenas uma casa por vez, como indicam os pontos vermelhos na figura abaixo.')
-        break
-    case 'bispo':
-        console.log('O bispo pode ser movido para qualquer casa ao longo da diagonal em que se encontra.')
-        break
-    case 'torre':
-        console.log('A torre pode ser movida para qualquer casa ao longo da fileira ou coluna em que se encontra. ')
-        break
-    case 'peão':
-        console.log('O peão pode ser movido para uma casa que esteja imediatamente à sua frente ao longo da mesma coluna, desde que esta casa esteja desocupada')
-    default:
-        console.log('Digite um nome de peça válido')
+// switch (nameLC) {
+//     case 'cavalo':
+//         console.log('O cavalo pode ser movido para uma das casas mais próximas a que ocupa que não esteja na mesma fileira, coluna ou diagonal')
+//         break
+//     case 'dama':
+//         console.log('A dama pode ser movida para qualquer casa ao longo da fileira, coluna ou diagonal em que se encontra. ')
+//         break
+//     case 'rei':
+//         console.log('Pode mover-se em qualquer direção, porém apenas uma casa por vez, como indicam os pontos vermelhos na figura abaixo.')
+//         break
+//     case 'bispo':
+//         console.log('O bispo pode ser movido para qualquer casa ao longo da diagonal em que se encontra.')
+//         break
+//     case 'torre':
+//         console.log('A torre pode ser movida para qualquer casa ao longo da fileira ou coluna em que se encontra. ')
+//         break
+//     case 'peão':
+//         console.log('O peão pode ser movido para uma casa que esteja imediatamente à sua frente ao longo da mesma coluna, desde que esta casa esteja desocupada')
+//     default:
+//         console.log('Digite um nome de peça válido')
 
-}
+// }
