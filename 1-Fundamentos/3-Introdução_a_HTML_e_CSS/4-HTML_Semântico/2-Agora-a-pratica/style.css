@@ -45,16 +45,34 @@ h1, h2, h3, h4 {
 }
 
 img {
-    width: 350px;
-    display: block;
-    margin: auto;
+    width: 500px;
+    padding: 10px;
+    /* display: block; */
+    /* margin: auto; */
 }
 
 table, th, td {
     border: 1px solid white;
-    padding: 8px;
+    padding: 20px;
 }
 
 table{
     padding: 0;
+    margin-bottom: 10px;
 }
+
+.sec-header{
+    /* background-color: red; */
+    text-align: center;
+}
+
+.sec-img{
+    /* background-color: yellow; */
+    display: inline-block;
+}
+
+.sec-table{
+    /* background-color: yellowgreen; */
+    display: inline-block;
+}
+
