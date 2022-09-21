@@ -15,6 +15,7 @@ let divisaoSobra = a%b
 
 console.log(divisaoSobra)
 
+// Exercício 2
 
 if (a > b) {
     console.log('A variável "A" é maior que a "B" ')
