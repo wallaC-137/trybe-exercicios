@@ -110,3 +110,45 @@ const c = 13
 //         console.log('Digite um nome de peça válido')
 
 // }
+
+
+
+// Exercício 7
+
+// let note = 88
+// let newNote;
+
+// if (note > 100 || note < 0) {
+//     newNote = 'Valor inválido. Digite um numero entre 100 e 0'
+// }else if (note >= 90){
+//     newNote = 'A'
+// } else if (note >= 80){
+//     newNote = 'B'
+// } else if (note >= 70) {
+//     newNote = 'C'
+// } else if (note >= 60) {
+//     newNote = 'D'
+// } else if (note >= 50) {
+//     newNote = 'E'
+// } else if (note < 50) {
+//     newNote = 'F'
+// }
+// console.log('Sua nota foi ' + newNote + ', parabéns!')
+
+
+
+// Exercício 8
+
+const n1 = 5;
+const n2 = 8;
+const n3 = 5;
+
+let resultado = 'false'
+let numberEven = n1 % 2 == 0 || n2 % 2 == 0 || n3 % 2 == 0;
+
+
+if (numberEven){
+    resultado = 'True'
+}
+
+console.log(resultado)
