@@ -91,3 +91,39 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
 // console.log(media)
 
+
+
+
+//exercício 9
+
+// let num = null;
+
+// for (let i = 0; i < numbers.length; i += 1){
+//     num += numbers[i]
+// }
+// let media = num / (numbers.length)
+
+// if (media > 20) {
+//     console.log('valor maior que 20')
+// } else {
+//     console.log('valor menor ou igual a 20')
+// }
+
+
+
+//exercício 10
+
+// let larger = 0;
+
+// for (let index = 0; index < numbers.length; index += 1){
+//  if (larger < numbers[index]){
+//     larger = numbers[index]
+//  }
+// }
+
+// console.log(larger)
+
+
+
+//exercício 11
+
