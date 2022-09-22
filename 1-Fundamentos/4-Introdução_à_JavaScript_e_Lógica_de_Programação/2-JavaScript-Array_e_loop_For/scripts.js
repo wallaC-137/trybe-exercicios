@@ -28,14 +28,64 @@
 
 //exercício 4
 
-let groceryList = ['Arroz', 'Feijão', 'Alface', 'Melancia'];
+// let groceryList = ['Arroz', 'Feijão', 'Alface', 'Melancia'];
 
-for (let i = 0; i < groceryList.length; i += 1) {
-    console.log(groceryList[i])
+// for (let i = 0; i < groceryList.length; i += 1) {
+//     console.log(groceryList[i])
+// }
+
+// // de trás pra frente 
+
+// for (let i = groceryList.length-1; i >= 0; i -= 1) {
+//     console.log(groceryList[i])
+// }
+
+
+
+//exercício 5
+
+// let names = ['João', 'Maria', 'Antônio', 'Margarida'];
+
+// for (let printingNames of names){
+//     console.log(printingNames)
+// }
+
+
+
+//exercício 6
+
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+
+// for(let index of numbers) {
+//     console.log(index)
+// }
+
+//outro modo 
+
+// for (let index = 0; index < numbers.length; index++){
+//     console.log(numbers[index])
+// }
+
+
+
+//exercício 7
+
+// let num = null;
+
+// for (let i = 0; i < numbers.length; i += 1){
+//     num += numbers[i]
+// }
+
+// console.log(num)
+
+
+
+//exercício 8
+
+let num = null;
+
+for (let i = 0; i < numbers.length; i += 1){
+    num += numbers[i]
 }
-
-// de trás pra frente 
-
-for (let i = groceryList.length-1; i >= 0; i -= 1) {
-    console.log(groceryList[i])
-}
+let media = num / (numbers.length)
+console.log(media)
