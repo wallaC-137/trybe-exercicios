@@ -127,3 +127,39 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
 //exercício 11
 
+// let numOdd = null;
+
+// for (let index = 0; index < numbers.length; index += 1){
+//    if(numbers[index] % 2 !== 0){
+//       numOdd += 1
+//    }
+// }
+
+// if (numOdd === 0) {
+//    console.log('nenhum valor ímpar encontrado');
+//  } else {
+//    console.log('Há', numOdd, 'números ímpares');
+//  }
+
+
+
+//exercício 11
+
+// let small = numbers[0];
+
+// for (let index = 0; index < numbers.length; index += 1){
+//  if (small > numbers[index]){
+//     small = numbers[index]
+//  }
+// }
+// console.log(small)
+
+
+
+//exercício 12
+
+let tamanho = 25;
+
+for (let index = 1; index <= tamanho; index += 1) {
+   console.log(index)
+}
