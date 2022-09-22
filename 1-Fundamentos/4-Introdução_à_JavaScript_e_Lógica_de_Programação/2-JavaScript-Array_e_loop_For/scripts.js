@@ -82,10 +82,12 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
 //exercício 8
 
-let num = null;
+// let num = null;
 
-for (let i = 0; i < numbers.length; i += 1){
-    num += numbers[i]
-}
-let media = num / (numbers.length)
-console.log(media)
+// for (let i = 0; i < numbers.length; i += 1){
+//     num += numbers[i]
+// }
+// let media = num / (numbers.length)
+
+// console.log(media)
+
