@@ -139,16 +139,74 @@ const c = 13
 
 // Exercício 8
 
-const n1 = 5;
-const n2 = 8;
-const n3 = 5;
+// const n1 = 5;
+// const n2 = 8;
+// const n3 = 5;
 
-let resultado = 'false'
-let numberEven = n1 % 2 == 0 || n2 % 2 == 0 || n3 % 2 == 0;
+// let resultado = 'false'
+// let numberEven = n1 % 2 == 0 || n2 % 2 == 0 || n3 % 2 == 0;
 
 
-if (numberEven){
-    resultado = 'True'
-}
+// if (numberEven){
+//     resultado = 'True'
+// }
 
-console.log(resultado)
+// console.log(resultado)
+
+
+
+// Exercício 9
+
+// const buyValue = 80
+// const saleValue = 140
+
+// let tax = buyValue * 20 / 100
+// let profit = saleValue - buyValue - tax
+// let start = buyValue > 0 && saleValue > 0;
+// let numSale = 1000
+// let result;
+
+// if (start) {
+//     result = profit * numSale
+// } else {
+//     result = 'Erro: Digite um valor válido'
+// }
+
+// console.log(result)
+
+
+
+// Exercício 10
+
+// const salary = 3500.00;
+// let inss;
+// let ir;
+
+
+// if (salary <= 1556.94) {
+//     inss = salary * 0.08
+// } else if (salary >= 1556.95 && salary <= 2594.92){
+//     inss = salary * 0.09
+// } else if (salary >= 2594.93 && salary <= 5189.82){
+//     inss = salary * 0.11
+// } else {
+//     inss = 570.88
+// }
+
+// let salaryInss = salary - inss
+
+// if (salaryInss >= 1903.99 && salaryInss <= 2826.65){
+//     ir = (salaryInss * 0.075) - 142.80
+// } else if (salaryInss >= 2826.66 && salaryInss <= 3751.05){
+//     ir = (salaryInss * 0.15) - 354.80
+// } else if (salaryInss >= 3751.06 && salaryInss <= 4664.68){
+//     ir = (salaryInss * 0.225) - 636.13
+// }   else {
+//     ir = (salaryInss * 0.275) - 869.36
+// }
+
+// let liqSal = (salary - inss) - ir
+
+// console.log(inss)
+// console.log(ir)
+// console.log(liqSal)
