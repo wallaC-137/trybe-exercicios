@@ -158,8 +158,46 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
 //exercício 12
 
-let tamanho = 25;
+// let tamanho = 25;
+// let array = []
 
-for (let index = 1; index <= tamanho; index += 1) {
-   console.log(index)
+// for (let index = 1; index <= tamanho; index += 1) {
+//      array.push(index)
+// }
+//    console.log(array)
+
+
+
+//exercício 12
+
+// let tamanho = 25;
+// let array = []
+
+// for (let index = 1; index <= tamanho; index += 1) {
+//      array.push(index);
+// }
+
+// for (let index = 0; index < array.length; index += 1){
+//    console.log(array[index] / 2)
+// }
+
+
+
+
+//exercício 13 bonus
+
+
+let ordem = []
+
+for(let index = 1;index < numbers.length; index += 1){
+   for (let index2 = 0; index2 < numbers.length; index2 +=1){
+      let ordemTemporaria = null
+      if(numbers[index] < numbers[index2]){
+         ordemTemporaria = numbers[index2]
+         ordem.push(ordemTemporaria)
+      }
+      
+   }
 }
+
+console.log(ordem)
