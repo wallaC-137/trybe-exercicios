@@ -116,21 +116,57 @@ let primeNumbers = []
 
 
 
-for (let index = 2; index <= number; index += 1) {
-   let contador = 0
-   for (let index2 = 2; index2 < index; index2 += 1) {
-      if (index % index2 == 0) {
-         contador += 1
-      }
-   }
-   if (contador == 0) {
-      primeNumbers.push(index)
-   }
-}
+// for (let index = 2; index <= number; index += 1) {
+//    let contador = 0
+//    for (let index2 = 2; index2 < index; index2 += 1) {
+//       if (index % index2 == 0) {
+//          contador += 1
+//       }
+//    }
+//    if (contador == 0) {
+//       primeNumbers.push(index)
+//    }
+// }
 
-let larger = primeNumbers[primeNumbers.length-1]
+// let larger = primeNumbers[primeNumbers.length-1]
 
-console.log(`Esses são todos os numeros primos entre 1 e ${number}: ${primeNumbers}. O maior é: ${larger}`)
+// console.log(`Esses são todos os numeros primos entre 1 e ${number}: ${primeNumbers}. O maior é: ${larger}`)
 
 
+// exercicios bonus: 1
+
+// let valor = 5
+// let imprimir = ''
+
+// for (let i = 1; i <= valor; i += 1){
+// 	imprimir = ''
+//   for(let i2 = 1; i2 <= valor; i2 += 1){
+//     imprimir += '*' 
+//   }
+// console.log(imprimir)
+// }
+
+
+
+// bonus 2
+
+// let valor = 25
+// let imprimir = ''
+
+// for (let i = 1; i <= valor; i += 1){
+//     imprimir += '*' 
+// console.log(imprimir)
+// }
+
+
+
+// bonus 3
+
+// let valor = 5
+// let imprimir = ''
+
+// for (let i = 1; i <= valor; i += 1){
+//     imprimir += ' *' 
+// console.log(imprimir)
+// }
 
