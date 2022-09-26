@@ -164,9 +164,41 @@ let primeNumbers = []
 
 // let valor = 5
 // let imprimir = ''
+// let symbol = '*'
+// let valor2 = valor - 1
 
-// for (let i = 1; i <= valor; i += 1){
-//     imprimir += ' *' 
-// console.log(imprimir)
+// for (let i = 0; i < valor; i += 1) {
+//     for (let i2 = 0; i2 < valor; i2 += 1) {
+//         if (i2 < valor2) {
+//             imprimir = imprimir + ' '
+//         } else {
+//             imprimir = imprimir + symbol
+//         }
+//     }
+//     console.log(imprimir)
+//     imprimir = ''
+//     valor2 -= 1
 // }
+
+
+
+// bonus 3 'triangulo centralizado'
+
+let valor = 5
+let imprimir = ''
+let symbol = '*'
+let valor2 = valor+1
+
+for (let i = 0; i < valor; i += 1){
+    for(let i2 = valor2; i2 >= 0; i2 -= 2){
+        if(i2 >= 1){
+            imprimir = imprimir + ' '
+        } else {
+            imprimir = imprimir + symbol
+        }
+    }
+    console.log(imprimir)
+    imprimir = ''
+}
+
 
