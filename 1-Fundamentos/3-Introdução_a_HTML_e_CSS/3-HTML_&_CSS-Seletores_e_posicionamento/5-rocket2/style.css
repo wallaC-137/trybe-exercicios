@@ -1,0 +1,77 @@
+ol li{
+    background-color: yellow;
+}
+ol li:nth-of-type(2n){
+    color: green;
+}
+ol li:nth-of-type(2n+1){
+text-transform: uppercase;
+}
+h3, h1{
+    color: red;
+}
+h3 em, h1 em{
+    font-size: 40px;
+    border: 1px solid black;
+}
+li{
+    font-size: 20px;
+}
+li em{
+    font-weight: bolder;
+}
+#ll li:nth-of-type(-n+3){
+    
+   color: blue;
+}
+.pink-bg{
+    background-color: rgb(216, 40, 69);
+}
+
+#ls li a {
+/* background-color: blue;
+text-decoration: none; */
+    color: black;
+}
+#ls li:nth-of-type(1):hover a:link{ 
+    font-weight: bold;
+    color: orange;
+    text-decoration: underline;
+}
+#ls li:nth-of-type(2):hover a:link{ 
+    font-weight: bold;
+    color: green;
+    text-decoration: underline;
+}
+#ls li:nth-of-type(3):hover a:link{ 
+    font-weight: bold;
+    color: black;
+    text-decoration: underline;
+}
+#ls li:nth-of-type(4):hover a:link{ 
+    font-weight: bold;
+    color: yellow;
+    text-decoration: underline;
+}
+#ls li:nth-of-type(5):hover a:link{ 
+    font-weight: bold;
+    color: rgb(14, 90, 14);
+    text-decoration: underline;
+}
+
+
+#ls li:nth-of-type(1):hover a:visited{ 
+    color: orange;
+}
+#ls li:nth-of-type(2):hover a:visited{ 
+    color: green;
+}
+#ls li:nth-of-type(3):hover a:visited{ 
+    color: black;
+}
+#ls li:nth-of-type(4):hover a:visited{ 
+    color: yellow;
+}
+#ls li:nth-of-type(5):hover a:visited{ 
+    color: rgb(14, 90, 14);
+}

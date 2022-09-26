@@ -1,0 +1,32 @@
+h1{
+    font-size: 65px;
+    color: orange;
+    font-family: serif, monospace;
+   }
+   ul{
+     background-color: yellowgreen;
+     line-height: 30px;
+   }
+   .item4{
+     background-color: bisque;
+   }
+   body{
+     background-color: rgba(0, 0, 0, 0.925);
+     font-size: 16px;
+     text-align: center;
+   }
+   p{
+     font-weight: 600;
+     font-size: 3em;
+     font-style: oblique;
+     text-decoration: underline;
+   }
+   #amarelo{
+     background-color: yellow;
+   }
+   #vermelho{
+     background-color: red;
+   }
+   #marrom{
+     background-color: brown;
+   }
