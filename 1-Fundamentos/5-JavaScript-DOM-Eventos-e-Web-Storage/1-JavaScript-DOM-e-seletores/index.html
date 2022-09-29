@@ -34,7 +34,7 @@
     <header> 
       <h1 class="title">Exercício - JavaEscripito </h1>
     </header>    
-    <main class="main-content">
+    <main class="main-content" id="teste">
       <section class="center-content">
         <p>Texto padrão do nosso site</p>
         <p>-----</p>
@@ -54,6 +54,35 @@
       5. Crie e execute uma função que modifique o texto da primeira tag <p> para maiúsculo.
       6. Crie e execute uma função que exiba o conteúdo de todas as tags <p> no console.
       */
+     function tagP (querySAll, num, texto){
+        document.querySelectorAll(querySAll)[num].innerText = texto;
+     };
+     tagP('p', '2', 'Esse é o texto');
+
+     function quadradoAmarelo() { 
+    document.getElementById('teste').style.backgroundColor = 'rgb(76,164,109)'
+    }
+    quadradoAmarelo()
+
+    function quadradoRed() {
+        document.querySelectorAll('.main-content .center-content')[0].style.backgroundColor = '#fff'
+    }
+    quadradoRed()
+
+    function tagH1() {
+        document.querySelector('h1').innerText = 'Exercício - JavaScript';
+    }
+    tagH1()
+
+    function primeiroP(){
+        document.querySelector('p').style.textTransform = "upperCase";
+    };
+    primeiroP()
+
+    function allP() {
+        document.getElementsByTagName('p');
+    }
+
     </script>
   </body>
 </html>
