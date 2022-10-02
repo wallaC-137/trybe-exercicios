@@ -1,24 +1,130 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <main id="paiDoPai">
-        <section id="pai">
-          <section id="primeiroFilho"></section>
-          <section id="elementoOndeVoceEsta">
-            <section id="primeiroFilhoDoFilho"></section>
-            <section id="segundoEUltimoFilhoDoFilho"></section>
-          </section>
-          Atenção!
-          <section id="terceiroFilho"></section>
-          <section id="quartoEUltimoFilho"></section>
-        </section>
-      </main>
-      <script src="./script.js"></script>
-</body>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício</title>
+    <style>
+      section {
+        border-color: black;
+        border-style: solid;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+
+      .main-content .left-content {
+        background-color: green;
+        width: 60%;
+        margin-left: 0;
+        margin-right: auto;
+      }
+
+      .main-content .left-content .small-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 100%;
+      }
+
+      .main-content .right-content {
+        background-color: blue;
+        width: 60%;
+        margin-left: auto;
+        margin-right: 0;
+      }
+
+      .main-content .description {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      
+      const captBody = document.querySelector('body');
+      const createH1 = document.createElement('h1');
+      createH1.innerHTML = 'Exercício - JavaScript DOM';
+      createH1.className = 'title'
+      captBody.appendChild(createH1)
+
+      const createMain = document.createElement('main');
+      createMain.className = 'main-content';
+      captBody.appendChild(createMain);
+
+      const captMain = document.querySelector('.main-content');
+      const createSection = document.createElement('section');
+      createSection.className = 'center-content';
+      captMain.appendChild(createSection)
+
+      const captSection = document.querySelector('.center-content')
+      const creatP = document.createElement('p');
+      creatP.id = 'p'
+      captSection.appendChild(creatP);
+
+      const creatSectionLeft = document.createElement('section');
+      creatSectionLeft.className = 'left-content';
+      captMain.appendChild(creatSectionLeft);
+
+      const creatSectionRight = document.createElement('section');
+      creatSectionRight.className = 'right-content';
+      captMain.appendChild(creatSectionRight);
+
+      const creatImg = document.createElement('img');
+      const captSecLeft = document.querySelector('.left-content');
+      creatImg.src = 'https://picsum.photos/200';
+      creatImg.className = 'small-image';
+      captSecLeft.appendChild(creatImg);
+
+      const captSecRight = document.querySelector('.right-content');
+      const creatUl = document.createElement('ul');
+      creatUl.id = 'ul';
+
+      captSecRight.appendChild(creatUl);
+      const captUl = document.querySelector('#ul');
+    
+      const numbers = ['um', 'dois', 'tres', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez'];
+      for(let i = 0; i < numbers.length; i += 1){
+        const creatLi = document.createElement('li');
+        creatLi.innerHTML = numbers[i]
+        creatLi.className = 'li'
+        captUl.appendChild(creatLi);
+      }
+
+      for(let i = 0; i < 3; i += 1){
+        const creatH3 = document.createElement('h3');
+        creatH3.className = 'description';
+        captMain.appendChild(creatH3);
+      }
+
+      captMain.firstElementChild.nextElementSibling.remove();
+      captSecRight.style.margin = 'auto'
+      captSection.style.backgroundColor = 'green';
+
+      const captLi = document.querySelector('.li');
+    for (let i = 0; i < numbers.length; i += 1){
+      let element = captLi[i];
+
+      if(true){
+        captUl.removeChild(element);
+      }
+    }
+    </script>
+  </body>
 </html>
