@@ -1,0 +1,29 @@
+body{
+    text-align: center;
+    /* display: block; */
+    /* margin: auto; */
+  
+}
+
+form{
+    /* width: 50%;
+    text-align: center; */
+    display:inline-table
+}
+
+input{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px 25px;
+
+}
+
+input check{
+margin-left: 50px;
+}
+
+fieldset{
+    /* width: 100%; */
+    border: 1px solid black;
+    border-radius: 10px;
+}
